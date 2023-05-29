@@ -124,3 +124,26 @@
     
 })(jQuery);
 
+ // Attach event listener to the button
+ document.getElementById('downloadBtn').addEventListener('click', function() {
+    // Define the PDF file path
+    var pdfFilePath = '/CURRICULUMVITAEDEV.pdf';
+
+    // Trigger the file download
+    downloadFile(pdfFilePath);
+  });
+
+  // Function to download the file
+  function downloadFile(filePath) {
+    // Create an anchor element
+    var link = document.createElement('a');
+
+    // Set the href attribute to the file path
+    link.href = filePath;
+
+    // Set the download attribute to specify the filename
+    link.download = filePath.substr(filePath.lastIndexOf('/') + 1);
+
+    // Simulate a click on the anchor element
+    link.click();
+  }

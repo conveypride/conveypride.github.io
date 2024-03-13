@@ -30,6 +30,24 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+<style>
+    .image_with_badge_container {
+    display: inline-block; /* keeps the img with the badge if the img is forced to a new line */
+    position: relative;
+    margin-bottom: 5px;
+}
+
+ 
+
+.badge-on-image-bottom {
+    position: absolute;
+   bottom: 0px;   /*position where you want it */
+    left: 2px;
+   
+    padding: 3px 6px;
+}
+</style>
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
@@ -76,483 +94,486 @@
     <!-- Projects Start -->
     <div class="container-xxl py-6 pt-5" id="project">
         <div class="container">
-            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+        <p class="text-center" style="align-self: center;"> <h4 class="display-5 mb-0">My Projects</h4> </p>   
+        <br>
+        <br>
+            <!-- <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">My Projects</h1>
+                    
                 </div>
                 <div class="col-lg-6 text-lg-end">
                     <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
                         <li class="mx-3 active" data-filter="*">All Projects</li>
-                        <li class="mx-3" data-filter=".first">Website Design</li>
-                        <li class="mx-3" data-filter=".second">App Design</li>
+                        <li class="mx-3" >Website Design</li>
+                        <li class="mx-3" data-filter=".">App Design</li>
                     </ul>
                 </div>
-            </div>
-            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+            </div> -->
+            <div class="row g-4 container  fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-9.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-9.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-food-delivery-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-9.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-food-delivery-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-10.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-10.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-shoe-shop.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-10.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-shoe-shop.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-20.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-20.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="http://sikatsuenterprise.store/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-20.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="http://sikatsuenterprise.store/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutter-CHAT-APP-UI.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutter-CHAT-APP-UI.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-chat-app-ui"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutter-CHAT-APP-UI.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-chat-app-ui"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-1.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/eStudyWebsite/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/eStudyWebsite/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
                 
 
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-2.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/fashionStore/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/fashionStore/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-7.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-7.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/theobusiness/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-7.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/theobusiness/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-3.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/Ecommerce-Electro"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/Ecommerce-Electro"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-4.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/christmasShop/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/christmasShop/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-<div class="col-lg-4 col-md-6 portfolio-item first">
+<div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-8.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-8.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://allviewinnovations.com/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-8.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="#"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-18.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-18.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/FreeZonePhotoshot/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-18.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/FreeZonePhotoshot/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-19.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-19.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/EDT/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-19.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/EDT/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-17.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-17.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/Ecommerce-Website.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-17.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/Ecommerce-Website.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-5.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/exprint/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/exprint/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-6.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/fashionStore/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/fashionStore/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-<div class="col-lg-4 col-md-6 portfolio-item first">
+<div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-16.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-16.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/Weather-Forecast-App/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-16.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://conveypride.github.io/Weather-Forecast-App/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-  <div class="col-lg-4 col-md-6 portfolio-item first">
+  <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/gmet.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/gmet.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="http://197.253.69.243/"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/gmet.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="http://197.253.69.243/"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
                
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-11.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-11.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-portfolio-website.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-11.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-portfolio-website.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-12.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-12.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-wallet-app.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-12.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-wallet-app.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-13.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-13.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/home-service-app.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-13.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/home-service-app.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-14.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-14.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/Flutter-Facebook-Redesign.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-14.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/Flutter-Facebook-Redesign.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/project-15.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-15.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/Flutter-Party-Event-Application.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-15.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/Flutter-Party-Event-Application.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (1).jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (1).jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (1).jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (2).jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (2).jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (2).jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (1).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (1).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (1).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (2).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (2).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (2).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (3).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (3).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (3).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (4).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (4).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (4).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (5).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (5).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (5).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (6).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (6).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (6).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (7).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (7).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (7).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (8).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (8).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (8).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (9).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (9).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (9).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (10).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (10).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (10).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (11).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (11).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (11).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (12).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (12).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (12).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (13).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (13).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (13).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (14).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (14).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (14).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (15).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (15).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (15).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (16).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (16).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (16).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (17).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (17).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (17).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (18).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (18).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (18).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (19).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (19).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (19).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (20).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (20).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (20).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (21).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (21).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (21).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (22).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (22).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (22).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (23).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (23).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (23).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (24).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (24).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (24).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="col-lg-4 col-md-6  ">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/flutterProject (25).png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (25).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
+                        <div class="image_with_badge_container">
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="img/flutterProject (25).png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn badge-on-image-bottom btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/conveypride/flutter-ui.git"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
